@@ -23,7 +23,7 @@ spec:
               strategy:
                 type: Recreate
               ingress:
-                hostname: rekor-server.enterprise-contract-service.svc
+                hostname: rekor.apps.ci-op-h6k1n7xr-0a007.rhtap-perfscale.devcluster.openshift.com
                 annotations:
                   route.openshift.io/termination: "edge"
             mysql:
